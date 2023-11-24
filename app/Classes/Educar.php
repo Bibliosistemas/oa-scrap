@@ -11,7 +11,9 @@ use Illuminate\Http\Client\Factory;
 
 class Educar extends \Spekulatius\PHPScraper\PHPScraper
 {
-    public $urljuana = 'https://www.educ.ar/buscador?q=%2A&presentacion=lista&resources_formats=7&page=';
+    public $urljuana = 'https://www.educ.ar/buscador?q=%2A&presentacion=lista&page=';
+    //public $urljuana = 'https://www.educ.ar/buscador?q=%2A&presentacion=lista&resources_formats=7&page=';
+    
     function procesarpagina($urlpage)
     {
         echo PHP_EOL . str_repeat('*', 10) . PHP_EOL;
